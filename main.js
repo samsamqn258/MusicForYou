@@ -55,18 +55,18 @@ const app = {
             path: "./assets/music/Soda-RPTMCKGC-9352752.mp3",
             image: "./assets/img/soda.jpg",
         },
-        // {
-        //     name: "Damn",
-        //     singer: "Raftaar x kr$na",
-        //     path: "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
-        //     image: "https://filmisongs.xyz/wp-content/uploads/2020/07/Damn-Song-Raftaar-KrNa.jpg",
-        // },
-        // {
-        //     name: "Feeling You",
-        //     singer: "Raftaar x Harjas",
-        //     path: "https://mp3.vlcmusic.com/download.php?track_id=27145&format=320",
-        //     image: "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp",
-        // },
+        {
+            name: "Hay Là Mình Yêu Nhau Nhé",
+            singer: "V.A",
+            path: "./assets/music/HayLaMinhYeuNhau-Adeline-5957884.mp3",
+            image: "./assets/img/haylaminhyeunhaunhe.jpg",
+        },
+        {
+            name: "Hoa Cỏ Lau",
+            singer: "Phong Max",
+            path: "./assets/music/HoaCoLau-PhongMax-9403310.mp3",
+            image: "./assets/img/hoacolau.jpg",
+        },
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
