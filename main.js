@@ -166,7 +166,7 @@ const app = {
 
         // Xử lý khi tua song
         // Handling when seek
-        progress.onchange = function (e) {
+        progress.onInput = function (e) {
             const seekTime = (audio.duration / 100) * e.target.value;
             audio.currentTime = seekTime;
         };
